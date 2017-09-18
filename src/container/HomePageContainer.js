@@ -8,7 +8,7 @@ class HomePageContainer extends Component {
     render() {
         
         return (
-            <HomePage counter={this.props.counter}  />
+            <HomePage counter={this.props.counter} actions={this.props.actions} />
         );
     }
 }
